@@ -23,7 +23,16 @@ Course from Geekbrains University
 
 ## Installing / Getting started
 
-In order to get started, we need the following tools:
+### Installation on Mac OS X
+
+Before installing MySQL on Mac OS X, you should install Command Line Tools for XCode from the AppStore. 
+
+XCode is an integrated application development environment for Mac OS X and iOS. 
+
+A full load of XCode is not necessary, just install the command line tools and the compiler. You can verify whether XCode is installed using the command line:
+
+
+
  
  
  
