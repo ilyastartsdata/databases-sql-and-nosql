@@ -1,0 +1,15 @@
+Task 3:
+
+Create a database dump from a previous job, expand the contents of the dump into a new database.
+
+Since this task is performed through a terminal, I upload the solution as a text file.
+
+The first step was to change the .my.cnf file, namely to replace [mysql] with [cient].
+
+After that I entered mysql in the terminal and created a new database via the CREATE DATABASE sample;
+
+To ensure success, I checked the list of all databases via SHOW DATABASES;
+
+Now to the dump itself:
+	mysqldump example > dump.sql
+	mysql sample < dump.sql
