@@ -36,14 +36,32 @@ xcode-select -p
 /Applications/Xcode.app/Contents/Developer
 ```
 
+If the above path is replaced by a suggestion to install Command Line Tools, this package must be installed by executing the command:
 
+```shell
+xcode-select --install
+```
+
+Now you can start installing PHP, for which it is best to use the Homebrew package manager. At the time of writing, you could install Homebrew using a team:
+
+```shell
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+However, the exact team can always be found on the official website http://brew.sh. 
+Once installed, a brew command will be available on the command line, with which you can download, delete and update software packages.
+Once the Homebrew manager has been installed, we will proceed with the installation of MySQL. You can do this with the command:
  
+ ```shell
+ brew install mysql
+ ```
  
+ If it is necessary that the MySQL server starts automatically when the operating system is loaded, a symbolic link to the MySQL distribution plist-file must be created in the Library/LaunchAgents directory of the home directory:
  
- 
- 
- 
- 
+ ```shell
+ ln -sfv /usr/local/opt/mysql/*.plist ~/Library/LaunchAgents
+ ```
+
 ## Contributing
 
 Pull requests are welcome.
