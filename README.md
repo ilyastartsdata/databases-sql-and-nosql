@@ -31,6 +31,10 @@ XCode is an integrated application development environment for Mac OS X and iOS.
 
 A full load of XCode is not necessary, just install the command line tools and the compiler. You can verify whether XCode is installed using the command line:
 
+```shell
+xcode-select -p
+/Applications/Xcode.app/Contents/Developer
+```
 
 
  
