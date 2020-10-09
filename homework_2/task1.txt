@@ -1,0 +1,25 @@
+Task 1:
+
+Install MySQL DBMS. Create a .my.cnf file in your home directory by specifying the login and password that was specified during installation.
+
+Since this task is performed through the terminal, I upload its solution as a text file.
+
+I have a MacBook, so I worked exclusively with Sequel Pro, but creating .my.cnf there is impossible because .spf was added every time I saved it. 
+
+I did not find any way to change this. I had to install DBeaver.
+
+I made the following entry in DBeaver itself:
+	[mysql]
+	user=root
+	*********
+
+Then configured the file to be available only to my user.
+
+The next step was to check via a terminal:
+
+	First a check to see if the file was available:
+		ls -la ~ | grep .my.cnf
+	Then view the content:
+		cat ~/.my.cnf
+
+It is now possible to run mysql via the terminal without entering a user or password.
