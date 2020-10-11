@@ -17,7 +17,6 @@ CREATE TABLE documents(
 	FOREIGN KEY(owner_id) REFERENCES users(id)
 );
 
-
 DROP TABLE IF EXISTS games;
 CREATE TABLE games(
 	id SERIAL,
