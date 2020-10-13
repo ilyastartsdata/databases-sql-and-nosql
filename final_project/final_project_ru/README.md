@@ -17,7 +17,7 @@
 7. Представления (минимум 2)
 8. Хранимые процедуры / триггеры
 
-## Тема проектв
+## Тема проекта
 
 ### StockX
 
@@ -27,9 +27,9 @@
 
 Несколько ссылок:
 
-https://stockx.com - сайт компании
-https://en.wikipedia.org/wiki/StockX - Википедия
-https://www.indigo9digital.com/blog/stockxgrowth
+1. https://stockx.com - сайт компании
+2. https://en.wikipedia.org/wiki/StockX - Википедия
+3. https://www.indigo9digital.com/blog/stockxgrowth
 
 ## Содействие
 
