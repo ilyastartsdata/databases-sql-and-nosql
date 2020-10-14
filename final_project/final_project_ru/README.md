@@ -106,6 +106,13 @@
 `content` TEXT NULL DEFAULT NULL      // Содержание категории
 ```
 
+### product_category
+
+```js
+`product_id` BIGINT NOT NULL					// id, который связывается с таблицей products
+`category_id` BIGINT NOT NULL					// id, который связывается с таблицей category
+```
+
 ## Содействие
 
 Запросы приветствуются.
