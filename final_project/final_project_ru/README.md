@@ -67,7 +67,7 @@
 ### products
 
 ```js
-`id` BIGINT NOT NULL AUTO_INCREMENT,
+`id` BIGINT NOT NULL AUTO_INCREMENT
 `user_id` BIGINT NOT NULL   // id, который связывается с таблицей users
 `name` VARCHAR(100) NOT NULL  // Название товара
 `summary` TINYTEXT NULL   // Небольшое описание товара
