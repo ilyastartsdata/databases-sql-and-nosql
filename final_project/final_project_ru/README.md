@@ -98,6 +98,14 @@
 `content` TEXT NULL DEFAULT NULL          // Содержание отзыва
 ```
 
+### category
+
+```js
+`id` BIGINT NOT NULL AUTO_INCREMENT
+`title` VARCHAR(50) NOT NULL          // Название категории
+`content` TEXT NULL DEFAULT NULL      // Содержание категории
+```
+
 ## Содействие
 
 Запросы приветствуются.
