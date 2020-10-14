@@ -23,6 +23,7 @@
 - [data.sql](https://github.com/ilyastartsdata/databases_sql/blob/main/final_project/final_project_ru/data.sql) -> Добавление данных в таблицы
 - [views.sql](https://github.com/ilyastartsdata/databases_sql/blob/main/final_project/final_project_ru/views.sql) -> Создание представлений
 - [procedures_triggers.sql](https://github.com/ilyastartsdata/databases_sql/blob/main/final_project/final_project_ru/procedures_triggers.sql) -> Создание процедур и триггеров
+- [stockx_dump.sql](https://github.com/ilyastartsdata/databases_sql/blob/main/final_project/final_project_ru/stockx_dump.sql) -> Dump
 
 ## Тема проекта
 
