@@ -72,10 +72,10 @@
 
 ```js
 `id` BIGINT NOT NULL AUTO_INCREMENT
-`user_id` BIGINT NOT NULL     // id, который связывается с таблицей users
-`name` VARCHAR(100) NOT NULL  // Название товара
-`summary` TINYTEXT NULL       // Небольшое описание товара
-`price` FLOAT NOT NULL DEFAULT 0    // Цена товара
+`user_id` BIGINT NOT NULL                 // id, который связывается с таблицей users
+`name` VARCHAR(100) NOT NULL              // Название товара
+`summary` TINYTEXT NULL                   // Небольшое описание товара
+`price` FLOAT NOT NULL DEFAULT 0           // Цена товара
 `discount` FLOAT NOT NULL      // Скидка
 `quantity` SMALLINT(6) NOT NULL DEFAULT 0     // Количество
 `created_at` DATETIME DEFAULT NOW()     // Момент создания товарной позиции
