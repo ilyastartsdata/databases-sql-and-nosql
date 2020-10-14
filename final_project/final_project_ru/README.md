@@ -51,17 +51,17 @@
 ### users
 
 ```js
-  `id` BIGINT NOT NULL AUTO_INCREMENT
-	`first_name` VARCHAR(100) NULL DEFAULT NULL 	-- Имя
-	`last_name` VARCHAR(100) NULL DEFAULT NULL 	  -- Фамилия
-	`phone` BIGINT UNSIGNED UNIQUE 				        -- Номер телефона, который обязан быть уникальным
-	`email` VARCHAR(100) UNIQUE 					        -- Имейл, который обязан быть уникальным
-	`password` VARCHAR(100) UNIQUE 				        -- Пароль, который не стоило бы хранить тут
-	`buyer` TINYINT(1) NOT NULL DEFAULT 1 			  -- Стандартная роль пользователя на сайте - покупатель
-	`seller` TINYINT(1) NOT NULL DEFAULT 0 		    -- Роль, на которую пользователь может податься
-	`created_at` DATETIME DEFAULT NOW() 			    -- Время создание записи
-	`intro` TINYTEXT NULL DEFAULT NULL 			      -- Небольшое описание, которое заполняется пользователем
-	`profile` TEXT NULL DEFAULT NULL 				      -- Полноценный профиль пользователя
+`id` BIGINT NOT NULL AUTO_INCREMENT
+`first_name` VARCHAR(100) NULL DEFAULT NULL 	// Имя
+`last_name` VARCHAR(100) NULL DEFAULT NULL 	// Фамилия
+`phone` BIGINT UNSIGNED UNIQUE 			// Номер телефона, который обязан быть уникальным
+`email` VARCHAR(100) UNIQUE 			// Имейл, который обязан быть уникальным
+`password` VARCHAR(100) UNIQUE 			// Пароль, который не стоило бы хранить тут
+`buyer` TINYINT(1) NOT NULL DEFAULT 1 		// Стандартная роль пользователя на сайте - покупатель
+`seller` TINYINT(1) NOT NULL DEFAULT 0 		// Роль, на которую пользователь может податься
+`created_at` DATETIME DEFAULT NOW() 		// Время создание записи
+`intro` TINYTEXT NULL DEFAULT NULL 		// Небольшое описание, которое заполняется пользователем
+`profile` TEXT NULL DEFAULT NULL 		// Полноценный профиль пользователя
 ```
 
 ## Содействие
