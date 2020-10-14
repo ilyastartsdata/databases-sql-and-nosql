@@ -113,6 +113,75 @@
 `category_id` BIGINT NOT NULL	// id, который связывается с таблицей category
 ```
 
+### tag
+
+```js
+`id` BIGINT NOT NULL AUTO_INCREMENT
+`title` VARCHAR(50) NOT NULL        // Название тэга
+`content` TEXT NULL DEFAULT NULL    //Содержание тэга
+```
+
+### product_tag
+
+```js
+`product_id` BIGINT NOT NULL  // id, который связывается с таблицей products
+`tag_id` BIGINT NOT NULL      // id, который связывается с таблицей tag
+```
+
+### order
+
+```js
+`id` BIGINT NOT NULL AUTO_INCREMENT
+`user_id` BIGINT NULL DEFAULT NULL        // id, который связывается с таблицей users
+`status_order` VARCHAR(20) DEFAULT NULL   // Статус заказа
+`sub_total` FLOAT NOT NULL DEFAULT 0      // Промежуточная сумма заказа
+`item_discount` FLOAT NOT NULL DEFAULT 0  // Скидка на товар
+`tax` FLOAT NOT NULL DEFAULT 0            // Налог
+`shipping` FLOAT NOT NULL DEFAULT 0       // Стоимость отправки
+`total` FLOAT NOT NULL DEFAULT 0          // Финальная сумма заказа
+`created_at` DATETIME DEFAULT NOW()       // Момент создания заказа
+```
+
+### order_item
+
+```js
+`id` BIGINT NOT NULL AUTO_INCREMENT
+`product_id` BIGINT NOT NULL                        // id, который связывается с таблицей products
+`order_id` BIGINT NOT NULL                          // id, который связывается с таблицей orders
+`price` FLOAT NOT NULL DEFAULT 0                    // Стоимость товара
+`discount` FLOAT NOT NULL DEFAULT 0                 // Скидка на товар
+`quantity` SMALLINT(6) NOT NULL DEFAULT 0           // Количество товара
+`created_at` DATETIME DEFAULT NOW()                 // Момент создания товарной позиции
+`updated_at` DATETIME ON UPDATE CURRENT_TIMESTAMP   // Момент изменения товарной позиции
+```
+
+### transaction
+
+```js
+`id` BIGINT NOT NULL AUTO_INCREMENT
+`user_id` BIGINT NOT NULL                         // id, который связывается с таблицей users	
+`order_id` BIGINT NOT NULL                        // id, который связывается с таблицей orders
+`type` TINYINT(1) NOT NULL DEFAULT 0              // Тип оплаты: Credit(0) или Debit(1)
+`mode` SMALLINT(6) NOT NULL DEFAULT 0             // Способ оплаты: Offline, Cash on Delivery, Cheque, Draft, Wired and Online
+`status_payment` SMALLINT(8) NOT NULL DEFAULT 0   // Статус оплаты: New, Cancelled, Failed, Pending, Declined, Rejected, Success
+`created_at` DATETIME DEFAULT NOW()               // Момент создания транзакции
+`updated_at` DATETIME ON UPDATE CURRENT_TIMESTAMP // Момент изменения транзакции
+```
+
+### brand
+
+```js
+`id` BIGINT NOT NULL AUTO_INCREMENT
+`name` VARCHAR(100) NOT NULL        // Название бренда
+```
+
+### brand_product
+
+```js
+`product_id` BIGINT NOT NULL  // id, который связывается с таблицей product
+`brand_id` BIGINT NOT NULL    // id, который связывается с таблицей brand
+```
+
 ## Содействие
 
 Запросы приветствуются.
