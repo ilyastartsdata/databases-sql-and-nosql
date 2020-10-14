@@ -31,7 +31,7 @@
 2. https://en.wikipedia.org/wiki/StockX - Википедия
 3. https://www.indigo9digital.com/blog/stockxgrowth
 
-## ERDiagran
+## ERDiagram
 
 ![ERD](https://github.com/ilyastartsdata/databases_sql/blob/main/final_project/final_project_ru/stockX_ERD.png)
 
@@ -72,18 +72,18 @@
 
 ```js
 `id` BIGINT NOT NULL AUTO_INCREMENT
-`user_id` BIGINT NOT NULL   // id, который связывается с таблицей users
+`user_id` BIGINT NOT NULL     // id, который связывается с таблицей users
 `name` VARCHAR(100) NOT NULL  // Название товара
-`summary` TINYTEXT NULL   // Небольшое описание товара
-`price` FLOAT NOT NULL DEFAULT 0  // Цена товара
-`discount` FLOAT NOT NULL   // Скидка
-`quantity` SMALLINT(6) NOT NULL DEFAULT 0   // Количество
-`created_at` DATETIME DEFAULT NOW()   // Момент создания товарной позиции
-`updated_at` DATETIME ON UPDATE CURRENT_TIMESTAMP   // Момент изменения товарной позиции
-`content` TEXT NULL DEFAULT NULL  // Сохранение дополнительной информации о товаре
-`review_id` BIGINT NOT NULL   // id, который связывается с таблицей reviews
-`brand_id` BIGINT NOT NULL  // id, который связывается с таблицей brand
-`product_category_id` BIGINT NOT NULL   // id, который связывается с таблицей product_category
+`summary` TINYTEXT NULL       // Небольшое описание товара
+`price` FLOAT NOT NULL DEFAULT 0    // Цена товара
+`discount` FLOAT NOT NULL      // Скидка
+`quantity` SMALLINT(6) NOT NULL DEFAULT 0     // Количество
+`created_at` DATETIME DEFAULT NOW()     // Момент создания товарной позиции
+`updated_at` DATETIME ON UPDATE CURRENT_TIMESTAMP     // Момент изменения товарной позиции
+`content` TEXT NULL DEFAULT NULL    // Сохранение дополнительной информации о товаре
+`review_id` BIGINT NOT NULL     // id, который связывается с таблицей reviews
+`brand_id` BIGINT NOT NULL    // id, который связывается с таблицей brand
+`product_category_id` BIGINT NOT NULL     // id, который связывается с таблицей product_category
 ```
 
 ## Содействие
