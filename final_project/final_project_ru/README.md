@@ -31,6 +31,10 @@
 2. https://en.wikipedia.org/wiki/StockX - Википедия
 3. https://www.indigo9digital.com/blog/stockxgrowth
 
+## ERDiagran
+
+![ERD](https://github.com/ilyastartsdata/databases_sql/blob/main/final_project/final_project_ru/stockX_ERD.png)
+
 ## Список таблиц
 
 - users
