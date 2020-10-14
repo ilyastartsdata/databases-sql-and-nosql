@@ -31,6 +31,30 @@
 2. https://en.wikipedia.org/wiki/StockX - Википедия
 3. https://www.indigo9digital.com/blog/stockxgrowth
 
+## Список таблиц
+
+- users
+- products
+- product_review
+- category
+- product_category
+- tag
+- product_tag
+- order
+- order_item
+- transaction
+- brand
+- brand_product
+
+## Структура таблиц
+
+### users
+
+```
+shell
+- id
+```
+
 ## Содействие
 
 Запросы приветствуются.
