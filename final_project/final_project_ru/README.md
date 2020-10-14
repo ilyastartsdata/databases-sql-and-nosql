@@ -86,6 +86,18 @@
 `product_category_id` BIGINT NOT NULL             // id, который связывается с таблицей product_category
 ```
 
+### product_review
+
+```js
+`id` BIGINT NOT NULL AUTO_INCREMENT
+`product_id` BIGINT NOT NULL              // id, который связывается с таблицей products
+`user_id` BIGINT NOT NULL                 // id, который связывается с таблицей users
+`title` VARCHAR(100) NOT NULL	            // Название отзыва
+`rating` SMALLINT(6) NOT NULL DEFAULT 0	  // Оценка отзыва
+`created_at` DATETIME DEFAULT NOW()       // Момент создания отзыва
+`content` TEXT NULL DEFAULT NULL          // Содержание отзыва
+```
+
 ## Содействие
 
 Запросы приветствуются.
