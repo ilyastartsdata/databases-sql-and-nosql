@@ -109,8 +109,8 @@
 ### product_category
 
 ```js
-`product_id` BIGINT NOT NULL		// id, который связывается с таблицей products
-`category_id` BIGINT NOT NULL		// id, который связывается с таблицей category
+`product_id` BIGINT NOT NULL	// id, который связывается с таблицей products
+`category_id` BIGINT NOT NULL	// id, который связывается с таблицей category
 ```
 
 ## Содействие
