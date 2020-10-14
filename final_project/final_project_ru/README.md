@@ -92,6 +92,6 @@
 
 ## Источники
 
-[Geekbrains](https://geekbrains.ru)
-[StockX](https://stockx.com)
-[FillDB](http://filldb.info)
+- [Geekbrains](https://geekbrains.ru)
+- [StockX](https://stockx.com)
+- [FillDB](http://filldb.info)
