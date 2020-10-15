@@ -36,9 +36,6 @@ Print the list of products and sections of catalogs that correspond to the produ
 
 Let there be a flight table (id, from, to) and a table of cities (label, name). The fields from, to and label contain English city names, the field name is Russian. Print the list of flights with Russian names of cities.
 
-
-
-
 # Contributing
 
 Pull requests are welcome.
@@ -46,4 +43,3 @@ Pull requests are welcome.
 # Source
 
 [Geekbrains](https://geekbrains.ru)
-
