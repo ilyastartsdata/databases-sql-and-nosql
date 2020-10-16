@@ -20,6 +20,7 @@ Course from Geekbrains University
 10. Webinar. Transactions, variables, views. Administration. Stored procedures and functions, triggers.
 11. Video lesson. Optimisation of requests. NoSQL
 12. Webinar. Optimisation of requests
+13. Final project
 
 ## Installing / Getting started
 
