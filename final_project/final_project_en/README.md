@@ -17,13 +17,13 @@ Course from Geekbrains University
 7. Views (minimum 2)
 8. Stored procedures / triggers
 
-### Файлы в репозитории
+### Files in repository
 
-- [structure.sql](https://github.com/ilyastartsdata/databases_sql/blob/main/final_project/final_project_ru/structure.sql) -> Создание БД и таблиц
-- [data.sql](https://github.com/ilyastartsdata/databases_sql/blob/main/final_project/final_project_ru/data.sql) -> Добавление данных в таблицы
-- [views.sql](https://github.com/ilyastartsdata/databases_sql/blob/main/final_project/final_project_ru/views.sql) -> Создание представлений
-- [procedures_triggers.sql](https://github.com/ilyastartsdata/databases_sql/blob/main/final_project/final_project_ru/procedures_triggers.sql) -> Создание процедур и триггеров
-- [stockx_dump.sql](https://github.com/ilyastartsdata/databases_sql/blob/main/final_project/final_project_ru/stockx_dump.sql) -> Dump
+- [structure_en.sql](https://github.com/ilyastartsdata/databases_sql/blob/main/final_project/final_project_en/structure_en.sql) -> Database and table creation
+- [data_en.sql](https://github.com/ilyastartsdata/databases_sql/blob/main/final_project/final_project_en/data_en.sql) -> Adding data to tables
+- [views.sql](https://github.com/ilyastartsdata/databases_sql/blob/main/final_project/final_project_en/views_en.sql) -> Creation of views
+- [procedures_triggers_en.sql](https://github.com/ilyastartsdata/databases_sql/blob/main/final_project/final_project_en/procedures_triggers_en.sql) -> Creation of procedures and triggers
+- [stockx_dump_en.sql](https://github.com/ilyastartsdata/databases_sql/blob/main/final_project/final_project_en/stockx_dump_en.sql) -> Dump
 
 ## Тема проекта
 
