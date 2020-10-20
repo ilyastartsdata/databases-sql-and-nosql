@@ -64,16 +64,16 @@ Several links:
 
 ```js
 `id` BIGINT NOT NULL AUTO_INCREMENT
-`first_name` VARCHAR(100) NULL DEFAULT NULL 	// Имя
-`last_name` VARCHAR(100) NULL DEFAULT NULL 	// Фамилия
-`phone` BIGINT UNSIGNED UNIQUE 			// Номер телефона, который обязан быть уникальным
-`email` VARCHAR(100) UNIQUE 			// Имейл, который обязан быть уникальным
-`password` VARCHAR(100) UNIQUE 			// Пароль, который не стоило бы хранить тут
-`buyer` TINYINT(1) NOT NULL DEFAULT 1 		// Стандартная роль пользователя на сайте - покупатель
-`seller` TINYINT(1) NOT NULL DEFAULT 0 		// Роль, на которую пользователь может податься
-`created_at` DATETIME DEFAULT NOW() 		// Время создание записи
-`intro` TINYTEXT NULL DEFAULT NULL 		// Небольшое описание, которое заполняется пользователем
-`profile` TEXT NULL DEFAULT NULL 		// Полноценный профиль пользователя
+`first_name` VARCHAR(100) NULL DEFAULT NULL 	// Name
+`last_name` VARCHAR(100) NULL DEFAULT NULL 	// Last name
+`phone` BIGINT UNSIGNED UNIQUE 			// A phone number that must be unique
+`email` VARCHAR(100) UNIQUE 			// An email that has to be unique
+`password` VARCHAR(100) UNIQUE 			// Password that should not be stored here
+`buyer` TINYINT(1) NOT NULL DEFAULT 1 		// Standard user role on the site - buyer
+`seller` TINYINT(1) NOT NULL DEFAULT 0 		// Role to which the user may apply
+`created_at` DATETIME DEFAULT NOW() 		// Timestamp of creating a record
+`intro` TINYTEXT NULL DEFAULT NULL 		// A small description to be filled in by the user
+`profile` TEXT NULL DEFAULT NULL 		// Full-fledged user profile
 ```
 
 ### products
