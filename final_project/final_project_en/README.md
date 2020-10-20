@@ -117,16 +117,16 @@ Several links:
 ### product_category
 
 ```js
-`product_id` BIGINT NOT NULL	// id, который связывается с таблицей products
-`category_id` BIGINT NOT NULL	// id, который связывается с таблицей category
+`product_id` BIGINT NOT NULL	// id, which is linked to the products table
+`category_id` BIGINT NOT NULL	// id, which is linked to the category table
 ```
 
 ### tag
 
 ```js
 `id` BIGINT NOT NULL AUTO_INCREMENT
-`title` VARCHAR(50) NOT NULL        // Название тэга
-`content` TEXT NULL DEFAULT NULL    //Содержание тэга
+`title` VARCHAR(50) NOT NULL        // Tag name
+`content` TEXT NULL DEFAULT NULL    // Tag content
 ```
 
 ### product_tag
