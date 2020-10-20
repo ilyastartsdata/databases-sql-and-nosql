@@ -132,35 +132,35 @@ Several links:
 ### product_tag
 
 ```js
-`product_id` BIGINT NOT NULL  // id, который связывается с таблицей products
-`tag_id` BIGINT NOT NULL      // id, который связывается с таблицей tag
+`product_id` BIGINT NOT NULL  // id, which is linked to the products table
+`tag_id` BIGINT NOT NULL      // id, which is linked to the tag table
 ```
 
 ### order
 
 ```js
 `id` BIGINT NOT NULL AUTO_INCREMENT
-`user_id` BIGINT NULL DEFAULT NULL        // id, который связывается с таблицей users
-`status_order` VARCHAR(20) DEFAULT NULL   // Статус заказа
-`sub_total` FLOAT NOT NULL DEFAULT 0      // Промежуточная сумма заказа
-`item_discount` FLOAT NOT NULL DEFAULT 0  // Скидка на товар
-`tax` FLOAT NOT NULL DEFAULT 0            // Налог
-`shipping` FLOAT NOT NULL DEFAULT 0       // Стоимость отправки
-`total` FLOAT NOT NULL DEFAULT 0          // Финальная сумма заказа
-`created_at` DATETIME DEFAULT NOW()       // Момент создания заказа
+`user_id` BIGINT NULL DEFAULT NULL        // id, which is linked to the users table
+`status_order` VARCHAR(20) DEFAULT NULL   // Order status
+`sub_total` FLOAT NOT NULL DEFAULT 0      // Intermediate order amount
+`item_discount` FLOAT NOT NULL DEFAULT 0  // Discount on product
+`tax` FLOAT NOT NULL DEFAULT 0            // Tax
+`shipping` FLOAT NOT NULL DEFAULT 0       // Cost of shipment
+`total` FLOAT NOT NULL DEFAULT 0          // Final order amount
+`created_at` DATETIME DEFAULT NOW()       // Timestamp of order creation
 ```
 
 ### order_item
 
 ```js
 `id` BIGINT NOT NULL AUTO_INCREMENT
-`product_id` BIGINT NOT NULL                        // id, который связывается с таблицей products
-`order_id` BIGINT NOT NULL                          // id, который связывается с таблицей orders
-`price` FLOAT NOT NULL DEFAULT 0                    // Стоимость товара
-`discount` FLOAT NOT NULL DEFAULT 0                 // Скидка на товар
-`quantity` SMALLINT(6) NOT NULL DEFAULT 0           // Количество товара
-`created_at` DATETIME DEFAULT NOW()                 // Момент создания товарной позиции
-`updated_at` DATETIME ON UPDATE CURRENT_TIMESTAMP   // Момент изменения товарной позиции
+`product_id` BIGINT NOT NULL                        // id, which is linked to the products table
+`order_id` BIGINT NOT NULL                          // id, which is linked to the orders table
+`price` FLOAT NOT NULL DEFAULT 0                    // Price of product
+`discount` FLOAT NOT NULL DEFAULT 0                 // Discount on product
+`quantity` SMALLINT(6) NOT NULL DEFAULT 0           // Quantity of product
+`created_at` DATETIME DEFAULT NOW()                 // Timestamp of creation of a product position
+`updated_at` DATETIME ON UPDATE CURRENT_TIMESTAMP   // Timestamp of change in product position
 ```
 
 ### transaction
