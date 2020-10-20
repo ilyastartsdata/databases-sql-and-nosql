@@ -98,12 +98,12 @@ Several links:
 
 ```js
 `id` BIGINT NOT NULL AUTO_INCREMENT
-`product_id` BIGINT NOT NULL              // id, который связывается с таблицей products
-`user_id` BIGINT NOT NULL                 // id, который связывается с таблицей users
-`title` VARCHAR(100) NOT NULL	           // Название отзыва
-`rating` SMALLINT(6) NOT NULL DEFAULT 0	  // Оценка отзыва
-`created_at` DATETIME DEFAULT NOW()       // Момент создания отзыва
-`content` TEXT NULL DEFAULT NULL          // Содержание отзыва
+`product_id` BIGINT NOT NULL              // id, which is linked to the products table
+`user_id` BIGINT NOT NULL                 // id, which is linked to the users table
+`title` VARCHAR(100) NOT NULL	           // Title of the review
+`rating` SMALLINT(6) NOT NULL DEFAULT 0	  // Rating
+`created_at` DATETIME DEFAULT NOW()       // Timestamp of review creation
+`content` TEXT NULL DEFAULT NULL          // Content of the review
 ```
 
 ### category
