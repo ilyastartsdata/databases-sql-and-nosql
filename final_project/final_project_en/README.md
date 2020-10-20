@@ -43,7 +43,7 @@ Several links:
 
 ![ERD](https://github.com/ilyastartsdata/databases_sql/blob/main/final_project/final_project_ru/stockX_ERD.png)
 
-## Список таблиц
+## List of tables
 
 - users
 - products
@@ -58,7 +58,7 @@ Several links:
 - brand
 - brand_product
 
-## Структура таблиц
+## Table structure
 
 ### users
 
