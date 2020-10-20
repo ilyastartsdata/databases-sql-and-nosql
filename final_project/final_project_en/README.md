@@ -25,18 +25,18 @@ Course from Geekbrains University
 - [procedures_triggers_en.sql](https://github.com/ilyastartsdata/databases_sql/blob/main/final_project/final_project_en/procedures_triggers_en.sql) -> Creation of procedures and triggers
 - [stockx_dump_en.sql](https://github.com/ilyastartsdata/databases_sql/blob/main/final_project/final_project_en/stockx_dump_en.sql) -> Dump
 
-## Тема проекта
+## Project topic
 
 ### StockX
 
-Курсовой проект представляет собой базу данных для сайта онлайн торговли. 
+The final project is a database for an online trading site. 
 
-В данном случае это подобие известной площадки stockX, которая выступает своеобразной биржей для следующих категорий товаров: кроссовки, уличная одежда, коллекционные предметы, сумки и часы.
+In this case it is akin to the well-known stockX platform, which acts as a kind of exchange for the following categories of goods: sneakers, streetwear, collectibles, bags and watches.
 
-Несколько ссылок:
+Several links:
 
-1. https://stockx.com - сайт компании
-2. https://en.wikipedia.org/wiki/StockX - Википедия
+1. https://stockx.com - company website
+2. https://en.wikipedia.org/wiki/StockX - Wikipedia
 3. https://www.indigo9digital.com/blog/stockxgrowth
 
 ## ERDiagram
