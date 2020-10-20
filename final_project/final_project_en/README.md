@@ -190,11 +190,11 @@ Several links:
 `brand_id` BIGINT NOT NULL    // id, который связывается с таблицей brand
 ```
 
-## Содействие
+## Contributing
 
-Запросы приветствуются.
+Pull requests are welcome.
 
-## Источники
+## Source
 
 - [Geekbrains](https://geekbrains.ru)
 - [StockX](https://stockx.com)
