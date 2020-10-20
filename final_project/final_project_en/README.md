@@ -110,8 +110,8 @@ Several links:
 
 ```js
 `id` BIGINT NOT NULL AUTO_INCREMENT
-`title` VARCHAR(50) NOT NULL          // Название категории
-`content` TEXT NULL DEFAULT NULL      // Содержание категории
+`title` VARCHAR(50) NOT NULL          // Title of category
+`content` TEXT NULL DEFAULT NULL      // Contents of category
 ```
 
 ### product_category
