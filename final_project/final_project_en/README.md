@@ -167,27 +167,27 @@ Several links:
 
 ```js
 `id` BIGINT NOT NULL AUTO_INCREMENT
-`user_id` BIGINT NOT NULL                         // id, который связывается с таблицей users	
-`order_id` BIGINT NOT NULL                        // id, который связывается с таблицей orders
-`type` TINYINT(1) NOT NULL DEFAULT 0              // Тип оплаты: Credit(0) или Debit(1)
-`mode` SMALLINT(6) NOT NULL DEFAULT 0             // Способ оплаты: Offline, Cash on Delivery, Cheque, Draft, Wired and Online
-`status_payment` SMALLINT(8) NOT NULL DEFAULT 0   // Статус оплаты: New, Cancelled, Failed, Pending, Declined, Rejected, Success
-`created_at` DATETIME DEFAULT NOW()               // Момент создания транзакции
-`updated_at` DATETIME ON UPDATE CURRENT_TIMESTAMP // Момент изменения транзакции
+`user_id` BIGINT NOT NULL                         // id, which is linked to the users table	
+`order_id` BIGINT NOT NULL                        // id, which is linked to the orders table
+`type` TINYINT(1) NOT NULL DEFAULT 0              // Type of payment: Credit(0) or Debit(1)
+`mode` SMALLINT(6) NOT NULL DEFAULT 0             // Payment mode: Offline, Cash on Delivery, Cheque, Draft, Wired and Online
+`status_payment` SMALLINT(8) NOT NULL DEFAULT 0   // Payment status: New, Cancelled, Failed, Pending, Declined, Rejected, Success
+`created_at` DATETIME DEFAULT NOW()               // Timestamp of transaction creation
+`updated_at` DATETIME ON UPDATE CURRENT_TIMESTAMP // Timestamp of change in the transaction
 ```
 
 ### brand
 
 ```js
 `id` BIGINT NOT NULL AUTO_INCREMENT
-`name` VARCHAR(100) NOT NULL        // Название бренда
+`name` VARCHAR(100) NOT NULL        // Brand name
 ```
 
 ### brand_product
 
 ```js
-`product_id` BIGINT NOT NULL  // id, который связывается с таблицей product
-`brand_id` BIGINT NOT NULL    // id, который связывается с таблицей brand
+`product_id` BIGINT NOT NULL  // id, which is linked to the product table
+`brand_id` BIGINT NOT NULL    // id, which is linked to the brand table
 ```
 
 ## Contributing
