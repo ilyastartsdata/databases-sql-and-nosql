@@ -80,18 +80,18 @@ Several links:
 
 ```js
 `id` BIGINT NOT NULL AUTO_INCREMENT
-`user_id` BIGINT NOT NULL                         // id, который связывается с таблицей users
-`name` VARCHAR(100) NOT NULL                      // Название товара
-`summary` TINYTEXT NULL                           // Небольшое описание товара
-`price` FLOAT NOT NULL DEFAULT 0                  // Цена товара
-`discount` FLOAT NOT NULL                         // Скидка
-`quantity` SMALLINT(6) NOT NULL DEFAULT 0         // Количество
-`created_at` DATETIME DEFAULT NOW()               // Момент создания товарной позиции
-`updated_at` DATETIME ON UPDATE CURRENT_TIMESTAMP // Момент изменения товарной позиции
-`content` TEXT NULL DEFAULT NULL                  // Сохранение дополнительной информации о товаре
-`review_id` BIGINT NOT NULL                       // id, который связывается с таблицей reviews
-`brand_id` BIGINT NOT NULL                        // id, который связывается с таблицей brand
-`product_category_id` BIGINT NOT NULL             // id, который связывается с таблицей product_category
+`user_id` BIGINT NOT NULL                         // id, which is linked to the users table
+`name` VARCHAR(100) NOT NULL                      // Name of the product
+`summary` TINYTEXT NULL                           // Small product description
+`price` FLOAT NOT NULL DEFAULT 0                  // Price of goods
+`discount` FLOAT NOT NULL                         // Discount
+`quantity` SMALLINT(6) NOT NULL DEFAULT 0         // Quantity
+`created_at` DATETIME DEFAULT NOW()               // Timestamp of creation of a product position
+`updated_at` DATETIME ON UPDATE CURRENT_TIMESTAMP // Timestamp of change in commodity position
+`content` TEXT NULL DEFAULT NULL                  // Retaining additional information about the product
+`review_id` BIGINT NOT NULL                       // id, which is linked to the review table
+`brand_id` BIGINT NOT NULL                        // id, which is linked to the brand table
+`product_category_id` BIGINT NOT NULL             // id, which is linked to the product_category table
 ```
 
 ### product_review
