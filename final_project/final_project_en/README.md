@@ -8,14 +8,14 @@ Course from Geekbrains University
 
 ## Requirements
 
-1. Составить общее текстовое описание БД и решаемых ею задач
-2. Минимальное количество таблиц - 10
-3. Скрипты создания структуры БД (с первичными ключами, индексами, внешними ключами)
-4. Создать ERDiagram для БД
-5. Скрипты наполнения БД данными
-6. Скрипты характерных выборок (включающие группировки, JOIN, вложенные таблицы)
-7. Представления (минимум 2)
-8. Хранимые процедуры / триггеры
+1. Draw up a general text description of the database and the tasks to be performed by it
+2. Minimum number of tables - 10
+3. Database structure creation scripts (with primary keys, indexes, external keys)
+4. Create ERDiagram for DB
+5. Scripts for filling the database with data
+6. Characteristic sample scripts (including groupings, JOIN, nested tables)
+7. Views (minimum 2)
+8. Stored procedures / triggers
 
 ### Файлы в репозитории
 
