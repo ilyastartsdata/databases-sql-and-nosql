@@ -83,11 +83,11 @@ Several links:
 `user_id` BIGINT NOT NULL                         // id, which is linked to the users table
 `name` VARCHAR(100) NOT NULL                      // Name of the product
 `summary` TINYTEXT NULL                           // Small product description
-`price` FLOAT NOT NULL DEFAULT 0                  // Price of goods
+`price` FLOAT NOT NULL DEFAULT 0                  // Price of product
 `discount` FLOAT NOT NULL                         // Discount
 `quantity` SMALLINT(6) NOT NULL DEFAULT 0         // Quantity
 `created_at` DATETIME DEFAULT NOW()               // Timestamp of creation of a product position
-`updated_at` DATETIME ON UPDATE CURRENT_TIMESTAMP // Timestamp of change in commodity position
+`updated_at` DATETIME ON UPDATE CURRENT_TIMESTAMP // Timestamp of change in product position
 `content` TEXT NULL DEFAULT NULL                  // Retaining additional information about the product
 `review_id` BIGINT NOT NULL                       // id, which is linked to the review table
 `brand_id` BIGINT NOT NULL                        // id, which is linked to the brand table
