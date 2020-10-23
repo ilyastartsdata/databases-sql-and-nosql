@@ -21,7 +21,7 @@ Course from Geekbrains University
 
 - [structure_en.sql](https://github.com/ilyastartsdata/databases_sql/blob/main/final_project/final_project_en/structure_en.sql) -> Database and table creation
 - [data_en.sql](https://github.com/ilyastartsdata/databases_sql/blob/main/final_project/final_project_en/data_en.sql) -> Adding data to tables
-- [views.sql](https://github.com/ilyastartsdata/databases_sql/blob/main/final_project/final_project_en/views_en.sql) -> Creation of views
+- [views_en.sql](https://github.com/ilyastartsdata/databases_sql/blob/main/final_project/final_project_en/views_en.sql) -> Creation of views
 - [procedures_triggers_en.sql](https://github.com/ilyastartsdata/databases_sql/blob/main/final_project/final_project_en/procedures_triggers_en.sql) -> Creation of procedures and triggers
 - [stockx_dump_en.sql](https://github.com/ilyastartsdata/databases_sql/blob/main/final_project/final_project_en/stockx_dump_en.sql) -> Dump
 
